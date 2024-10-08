@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.121);
+    position: relative;
+}
+#insta{
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+}
+#left button{
+    width: 100%;
+    background-color: transparent;
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(157, 244, 210);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#card{
+    width: 300px;
+    height: 480px;
+    background-color: rgb(249, 244, 244);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+#profile{
+    width: 100%;
+    height: 65px;
+    border-bottom: solid 2px black;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+h3{
+    color: rgb(175, 56, 56);
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+
+}
+#profile i{
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    transform: translate(-50%,);
+}
+#userimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: brown;
+    overflow: hidden;
+}
+#userimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+#post{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+
+}
+#post img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#post i{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 65px;
+    color: rgb(248, 247, 247);
+}
+#like{
+    width: 40%;
+    height: 5%;
+    justify-content: space-between;
+    padding: 2px;
+    overflow: hidden;
+
+}
+#like i{
+    font-size: 20px;
+    
+}
+h5{
+    font-size: 10px;
+    padding-left: 10px;
+
+    bottom: 30px;
+    
+}
+#save{
+    width: 20%;
+    padding: 6px;
+    font-size: 20px;
+    height: 10%;
+    position: absolute;
+    right: 0%;
+    bottom: 16px;
+    
+}
+#save i{
+    position: absolute;
+    right: 5%;
+}
+#comment{
+    width: 100%;
+    height: 29px;
+
+}
+input{
+    width: 100%;
+    height: 29px;
+    padding-left: 30px;
+    border: solid 0.5px rgba(0, 0, 0, 0.116);
+}
+#right button{
+    border: none;
+    background: none;
+    position: absolute;
+    left: 85%;
+    bottom: -1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(38, 0, 255);
+}
